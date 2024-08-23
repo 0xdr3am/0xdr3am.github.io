@@ -1,4 +1,21 @@
 
+# Welcome to My Personal Site!
+
+## Purpose
+This site serves as a platform for me to share my cybersecurity endeavors and document my journey through various Capture The Flag (CTF) challenges. It also features a blog section where I mainly write CTF writeups, providing detailed explanations of my thought process and solutions for different challenges.
+
+## About Me
+I am passionate about cybersecurity and constantly strive to enhance my skills in this field. Through this site, I aim to share my knowledge, experiences, and insights with the cybersecurity community.
+
+## Blog
+In the blog section, you will find a collection of CTF writeups where I dissect and analyze different challenges I have encountered. These writeups serve as a valuable resource for fellow cybersecurity enthusiasts, providing step-by-step explanations and solutions to help you improve your own skills.
+
+## Projects
+
+## Contact
+
+### Example Writeup Format
+
 # HackTheBox - Machine Name
 
 ## Machine Information
