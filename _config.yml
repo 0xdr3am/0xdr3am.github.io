@@ -1,5 +1,20 @@
-title: Hacker theme
-description: Hacker is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
+title: dr3amda3mon
+#email: al.9000log@protonmail.com
+author: 0xdr3am
+description: >-
+  cyber shenanigans
+baseurl: ""
+url: https://0xdr3am.github.io
+github_username:  0xdr3am
+
+show_downloads: false
+google_analytics: UA-161626775-1
+
+remote_theme: pages-themes/hacker@v0.2.0
+
 theme: jekyll-theme-hacker
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  #- jekyll-feed
+paginate: 5

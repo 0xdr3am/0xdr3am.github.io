@@ -1,0 +1,37 @@
+---
+layout: default
+title: 0xDr3am's Cybersecurity Blog
+---
+<head>
+  <link href='https://0xdr3am.github.io/feed.xml' rel='alternate' type='application/atom+xml'>
+</head>
+
+<main>
+  <section class="hero">
+    <img src="/assets/images/banner.gif" alt="Cybersecurity Banner">
+    <p>Exploring the depths of cyberspace and shit, one hack at a time.</p>
+  </section>
+
+  <section class="latest-posts">
+    <h2>Latest Write-ups</h2>
+    <ul>
+      {% for post in site.categories.writeups limit:3 %}
+        <li>
+          <article>
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p class="meta">
+              <span class="date">{{ post.date | date: "%B %d, %Y" }}</span>
+              <span class="tags">{{ post.tags | join: ", " }}</span>
+            </p>
+            <p>{{ post.excerpt }}</p>
+            <a href="{{ post.url }}" class="read-more">Read full write-up</a>
+          </article>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2023 0xDr3am's Cybersecurity Blog. All rights reserved.</p>
+</footer>
